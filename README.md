@@ -1,6 +1,6 @@
 # GitHub Tutorial
 
-_by <your-name-here>_
+_by Shuquan Huang_
 
 ---
 ## Git vs. GitHub
@@ -9,7 +9,7 @@ _by <your-name-here>_
 
 ---
 ## Initial Setup
-
+[Go to Github and singup for an account](https://github.com/join?source=header-home)
 
 
 ---

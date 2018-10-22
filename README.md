@@ -24,13 +24,20 @@ _by Shuquan Huang_
 4. Then go to your cloud9 home page and click on the top right gear icon
 5. Then click on the SSH key tab on the left side bar, or [click here](https://c9.io/account/ssh)
 6. Then copy everything inside the first box, like below
-7. 
+7. Then go back to your github SSH key tab and paste it into the empty box 
     
 
 
 ---
 ## Repository Setup
-
+1. Go to your [github account](https://github.com/)  
+2. Click on the (+) symbol on the top right corner  
+3. Click on **New Repository** 
+4. Under the Repository Name box, type in the name you want for this repository  
+5. Then you could give a description of your new repositiory that you are making _(is optional)_  
+6. Then click on the green create repositiory on the bottom
+7. Then you will be direct to a set-up page for your repositiory
+8. 
 
 
 ---

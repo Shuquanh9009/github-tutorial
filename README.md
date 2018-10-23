@@ -17,7 +17,7 @@ _by Shuquan Huang_
 4. Put in your personal password _(Make sure to have something is easy for you to remember)_  
 5. Select the **unlimited public repositories for free plan**, unless you want to have the private repositories for $7/month.  
 6. Last step will be tayloring your experience by check all boxes that applies to you.
-#### After you have finish signing up your account:
+#### After you have finished signing up your account:
 1. Go to setting  
 2. Click on SSH and GPG keys  
 3. Afer you clicked on the SSH and GPG key tab, you will then click on the green **New SSH Key**
@@ -42,8 +42,13 @@ _by Shuquan Huang_
 
 ---
 ## Workflow & Commands
-
+`git status`- a command to check the status of your files, whether if it was added, modified, deleted, commited and etc.  
+`git add .`
 
 
 ---
 ## Rolling Back Changes
+`git checkout -- filename`: Undo the changes in the file  
+`git reset HEAD filename`: Unstage the file you had just added from staging area  
+`git reset --soft HEAD~1`: Undo the commit you had just commited  
+`git revert SHA` : 

@@ -37,13 +37,23 @@ _by Shuquan Huang_
 5. Then you could give a description of your new repositiory that you are making _(is optional)_  
 6. Then click on the green create repositiory on the bottom
 7. Then you will be direct to a set-up page for your repositiory
-8. 
+8. Go to cloud9 `mkdir` a new directory, have the same **exact** name as your new repository you had just created in your GitHub account
+9. Then `cd` into the directory you just made
+10. inside that directory, type in `git init` to initlize the repository 
+11. Then type in `touch README.md` which creates the readme file
+12. Then type in `git add README.md` to add everyhting in this file to your repository
+13. Then do `git commit -m "first repo"`
+14. Add your git remote, copy the whole line of line in your github repository page and paste it in your cloud9
+15. LAstly type in `git push -u origin master` to push it into your github.
 
 
 ---
 ## Workflow & Commands
 `git status`- a command to check the status of your files, whether if it was added, modified, deleted, commited and etc.  
-`git add .`
+`git add .` - a command that adds your file to staging area   
+`git commit -m `- a command to save your edits with a message you make to remeber the edits you made  
+`git push` - a command to push your files up to your remote which is to like Github.
+
 
 
 ---

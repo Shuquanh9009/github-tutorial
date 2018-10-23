@@ -5,7 +5,7 @@ _by Shuquan Huang_
 ---
 ## Git vs. GitHub
 - Git is a version-control system that keeps a snapshot of your code, in other words, it helps you to keep track of your coding progress. _(It doesn't require Github to run it)_ 
-- Github, which stores your files into a cloud, allows you could share your work to the world, so others could see it and add on to it. _(It requires Git!)_
+- Github, which stores your files into a cloud, allows you to share your work to the world, so others could see it and add on to it. _(It requires Git!)_
 
 
 ---

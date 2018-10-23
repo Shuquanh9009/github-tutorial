@@ -61,5 +61,6 @@ _by Shuquan Huang_
 ## Rolling Back Changes
 `git checkout -- filename`: Undo the changes in the file  
 `git reset HEAD filename`: Unstage the file you had just added from staging area  
-`git reset --soft HEAD~1`: Undo the commit you had just commited  
+`git reset --soft HEAD~1`: Undo the commit you had just committed  
+`git reset --hard HEAD~1`: Undo the commit you had just committed, and discard those changes in the file
 `git revert SHA` : Undo a push 

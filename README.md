@@ -4,8 +4,8 @@ _by Shuquan Huang_
 
 ---
 ## Git vs. GitHub
-- Git is a version-control system that keeps a snapshot of your code, in other word, it helps you to keep track of your coding progress. _(It doesn't require Github to run it)_ 
--  Github, which stores your files into a cloud, where you could share your work to the world, so others could see it and add on it. _(It requires Git!)_
+- Git is a version-control system that keeps a snapshot of your code, in other words, it helps you to keep track of your coding progress. _(It doesn't require Github to run it)_ 
+- Github, which stores your files into a cloud, allows you could share your work to the world, so others could see it and add on to it. _(It requires Git!)_
 
 
 ---
@@ -16,15 +16,16 @@ _by Shuquan Huang_
 3. Then put in your email address. (_If you are a HSTAT student, use your HSTAT email_)  
 4. Put in your personal password _(Make sure to have something is easy for you to remember)_  
 5. Select the **unlimited public repositories for free plan**, unless you want to have the private repositories for $7/month.  
-6. Last step will be tayloring your experience by check all boxes that applies to you.
+6. Last step will be tailoring your experience by check all boxes that applies to you.
 #### After you have finished signing up your account:
-1. Go to setting  
+1. Go to settings  
 2. Click on SSH and GPG keys  
-3. Afer you clicked on the SSH and GPG key tab, you will then click on the green **New SSH Key**
+3. After you clicked on the SSH and GPG key tab, you will then click on the green **New SSH Key**
 4. Then go to your cloud9 home page and click on the top right gear icon
 5. Then click on the SSH key tab on the left side bar, or [click here](https://c9.io/account/ssh)
 6. Then copy everything inside the first box, like below
 7. Then go back to your github SSH key tab and paste it into the empty box 
+8. You should then see "Hi ! You've successfully authenticated, but GitHub does not provide shell access._" in your c9, after inputting "ssh -T git@github.com"
     
 
 
@@ -43,7 +44,7 @@ _by Shuquan Huang_
 11. Then type in `touch README.md` which creates the readme file
 12. Then type in `git add README.md` to add everyhting in this file to your repository
 13. Then do `git commit -m "first repo"`
-14. Add your git remote, copy the whole line of line in your github repository page and paste it in your cloud9
+14. Add your git remote, copy the whole line of line in your github repository page and paste it in your cloud9  
 15. Lastly type in `git push -u origin master` to push it into your github.
 
 

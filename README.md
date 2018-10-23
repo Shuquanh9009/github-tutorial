@@ -44,7 +44,7 @@ _by Shuquan Huang_
 12. Then type in `git add README.md` to add everyhting in this file to your repository
 13. Then do `git commit -m "first repo"`
 14. Add your git remote, copy the whole line of line in your github repository page and paste it in your cloud9
-15. LAstly type in `git push -u origin master` to push it into your github.
+15. Lastly type in `git push -u origin master` to push it into your github.
 
 
 ---
@@ -61,4 +61,4 @@ _by Shuquan Huang_
 `git checkout -- filename`: Undo the changes in the file  
 `git reset HEAD filename`: Unstage the file you had just added from staging area  
 `git reset --soft HEAD~1`: Undo the commit you had just commited  
-`git revert SHA` : 
+`git revert SHA` : Undo a push 

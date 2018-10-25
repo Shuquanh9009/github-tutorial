@@ -51,8 +51,16 @@ _by Shuquan Huang_
 ---
 ## Workflow & Commands
 `git status`- a command to check the status of your files, whether if it was added, modified, deleted, commited and etc.  
+- Is always useful to use `git status` after every changes you made, files you commited, because if you did something wrong, `git status` will inform you what went wrong and have type of undo commands you could type in depending on your situation
+
 `git add .` - a command that adds your file to staging area   
+
+`git add --all` - a command that adds all the files changes you made into the staging area, including the deleted ones.  
+
+- This is useful when it comes to **renaming folders** because it will bring back all the files under the old folder into the new folder
+
 `git commit -m `- a command to save your edits with a message you make to remeber the edits you made  
+
 `git push` - a command to push your files up to your remote which is to like Github.
 
 
@@ -60,7 +68,11 @@ _by Shuquan Huang_
 ---
 ## Rolling Back Changes
 `git checkout -- filename`: Undo the changes in the file  
+
 `git reset HEAD filename`: Unstage the file you had just added from staging area  
+
 `git reset --soft HEAD~1`: Undo the commit you had just committed  
+
 `git reset --hard HEAD~1`: Undo the commit you had just committed, and discard those changes in the file
-`git revert SHA` : Undo a push 
+
+`git revert SHA` : Undo a push with the SHA or commit number you could find through using ` git log` 

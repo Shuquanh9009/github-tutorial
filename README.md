@@ -98,7 +98,7 @@ Use this command to undo a push by going back into a commit version that was bef
 - If you have accidentally initialize git (`git init`) under the wrong directory, you could simply uninitialize this by typing in this command `rm -rf .git`
     - The way you know if your directory/folder is initialized or not is by checking if there are (master) next to the folder name in the terminal
 - If you want to delete a repositiory completely (local & remote):  
-1- Go to your [Github account](https://github.com/)  
+1- Go to your [Github account repositiory section](https://github.com/Shuquanh9009?tab=repositories)  
 2- CLick on the repository name you want to delete completely  
 3- Click on the gear setting icon inside of your repositiory, _located on the mid-top slightly to the right from the center_   
 4- Scroll all the way down to the bottom, under **Danger Zone**, the very last option (Delete this repository), click on it and read the warnings  
